@@ -12,3 +12,33 @@
   text-decoration: none;
   font-family: var(--primary-font);
 }
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #d5d2d2;
+  padding: 10px 0;
+}
+.logo-area img {
+  width: 100%;
+}
+.item {
+  display: flex;
+}
+.item li a {
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin: 0 3px;
+  transition: border 0.5s;
+}
+.item li:hover a {
+  border: 1px solid #c0392b;
+  color: #2c3e50;
+}
+.item li a {
+  text-transform: capitalize;
+  color: #000;
+  font-size: 1.1rem;
+}
